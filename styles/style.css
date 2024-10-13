@@ -56,7 +56,7 @@
     font-family: Azeret Mono;
     font-size: 44px;
     font-weight: 800;
-    padding-left: 222px;
+    padding-left: 226px;
     padding-right: 221px;
     letter-spacing: 0%;
     text-align: center;
@@ -74,8 +74,8 @@
     font-weight: 400;
     letter-spacing: 0%;
     text-align: center;
-    padding-left: 294px;
-    padding-right: 294px;
+    padding-left: 310px;
+    padding-right: 280px;
     margin-top: 0%;
     margin-bottom: 0%;
 }
@@ -94,4 +94,102 @@
     letter-spacing: 0%;
     text-align: center;
     margin-top: 32px;
+    
+}
+.first-main{
+    width: 1140px;
+height: 1393px;
+margin-top: 74px;
+margin-left: 150px;
+margin-right: 150px;
+padding-left: 90px;
+padding-right: 95px;
+padding-top: 80px;
+justify-content: center;
+
+}
+
+.outer-title{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+margin-top: 0%;
+letter-spacing: 0%;
+text-align: center;
+margin-right: 47px;
+padding-right: 55px;
+
+
+}
+
+.outer-description{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 13px;
+font-weight: 400;
+letter-spacing: 0%;
+text-align: center;
+width: 852px;
+height: 52px;
+padding-left: 57px;
+
+}
+.inner{
+    display: flex;
+    padding-right: 48px;
+    padding-left: 48px;
+    gap: 110px;
+    
+
+.box-text{
+    width: 477px;
+height: 219px;
+justify-content: flex-start;
+align-items: flex-start;
+margin-left: 48;
+}
+
+.inner-title{
+    color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 22px;
+font-weight: 700;
+
+letter-spacing: 0%;
+text-align: left;
+width: 370px;
+height: 72px;
+margin-bottom: 0%;
+}
+.width-expand{
+    width: 477px;
+height: 72px;
+}
+
+.inner-description{
+    width: 468px;
+height: 52px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 13px;
+font-weight: 400;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+margin-top: 0%;
+}
+.image-dev{
+    width: 259.56px;
+height: 217.01px;
+}
+
+.learn{
+    box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+width: 110px;
+height: 30px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
 }
