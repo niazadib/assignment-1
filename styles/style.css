@@ -98,7 +98,7 @@
 }
 .first-main {
     width: 1140px;
-    margin-left: 110px; /* Center with auto margins */
+    margin-left: 110px; 
     padding: 80px 95px;
 
 }
@@ -126,7 +126,7 @@
 .inner {
     margin-top: 80px;
     display: flex;
-    padding: 0 48px; /* Combined padding */
+    padding: 0 48px; 
     gap: 110px;
     padding-left: 70px;
 }
@@ -166,7 +166,7 @@
     font-family: Azeret Mono;
 }
 
-/* Adjusted the selector for better specificity */
+
 .second-main {
     display: flex;
     flex-wrap: wrap;
@@ -178,13 +178,13 @@
 
 }
 .media-text {
-    flex: 1; /* Allow flex-grow */
+    flex: 1;
     
-    padding: 10px; /* Added padding */
+    padding: 10px; 
     width: 852px;
 height: 113px;
 }
-.media-title{
+.media-title , .third-title{
     color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 28px;
@@ -194,7 +194,7 @@ text-align: center;
 padding-left: 110px;
 }
 
-.media-description{
+.media-description, .third-paragraph{
     width: 852;
     color: rgb(13, 19, 33);
 font-family: Azeret Mono;
@@ -211,4 +211,89 @@ opacity: 0.7;
 }
 iframe{
     border-radius: 14px;
+}
+
+.third-main{
+    width: 1140px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 150px;
+    margin-right: 148px;
+    margin-top: 180px;
+    padding-left: 60px;
+}
+
+.third-text-box{
+    width: 852px;
+height: 113px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.third-paragraph{
+    margin-top: 0%;
+    margin-bottom: 48px;
+}
+.skil-box{
+    width: 1140px;
+    height: 300px;
+    margin-top: 48px;
+    display: flex;
+    gap: 20px;
+   
+}
+
+.skill-title{
+    width: 364px;
+
+padding: 40px;
+
+}
+
+.skill-name{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 18px;
+font-weight: 800;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.skill-description{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 13px;
+font-weight: 400;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.link-text a{
+    margin-top: 20px;
+    color: #0D1321;
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 14px;
+font-weight: 700;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline; 
+}
+.background-color-1{
+    border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+
+}
+
+.background-color-2{
+    border-radius: 16px;
+
+    background: rgba(0, 76, 232, 0.05);
+}
+.background-color-3{
+    border-radius: 16px;
+
+background: rgba(255, 223, 0, 0.05);
 }
