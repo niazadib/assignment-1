@@ -26,7 +26,6 @@
     font-family: Azeret Mono;
     font-size: 25px;
     font-weight: 800;
-
     letter-spacing: 0%;
     text-align: left;
 }
@@ -41,7 +40,6 @@
     background-repeat: no-repeat;
     justify-content: center;
     text-align: center;
-
 }
 
 .developer-img {
@@ -75,31 +73,40 @@
     padding-left: 310px;
     padding-right: 280px;
     margin-top: 0%;
-    margin-bottom: 0%;
 }
 
 .contact-btn {
-    border-radius: 8px;
-
-    background: rgb(13, 19, 33);
-    width: 220px;
-    height: 55px;
-    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
     font-family: Azeret Mono;
     font-size: 15px;
     font-weight: 600;
-
-    letter-spacing: 0%;
     text-align: center;
-    margin-top: 32px;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 15px 20px 15px 20px;
+    margin-top: 30px;
+}
 
+.contact-btn:hover {
+    background-color: #555;
+}
+
+main {
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 .first-main {
     width: 1140px;
-    margin-left: 110px;
     padding: 80px 95px;
+}
 
+.main-text .outer-title {
+    margin-right: 40px;
+    padding-right: 70px;
 }
 
 .outer-title,
@@ -107,13 +114,11 @@
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     text-align: center;
-    padding-left: 40px;
 }
 
 .outer-title {
     font-size: 32px;
     font-weight: 800;
-    margin: 0 47px 0 55px;
 }
 
 .outer-description {
@@ -171,16 +176,12 @@
     display: flex;
     flex-wrap: wrap;
     margin-left: 150px;
-    margin-right: 148px;
+    margin-right: 150px;
     gap: 20px;
-    padding-left: 60px;
-
-
 }
 
 .media-text {
     flex: 1;
-
     padding: 10px;
     width: 852px;
     height: 113px;
@@ -194,7 +195,11 @@
     font-weight: 800;
     letter-spacing: 0%;
     text-align: center;
-    padding-left: 110px;
+}
+
+.third-text-box {
+    margin-left: 100px;
+    padding-left: 30px;
 }
 
 .media-description,
@@ -205,10 +210,8 @@
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 0%;
-    padding-left: 90px;
     text-align: center;
     opacity: 0.7;
-
 }
 
 .video {
@@ -223,10 +226,9 @@ iframe {
     width: 1140px;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 150px;
+    margin-left: 80px;
     margin-right: 148px;
     margin-top: 180px;
-    padding-left: 60px;
 }
 
 .third-text-box {
@@ -249,14 +251,11 @@ iframe {
     margin-top: 48px;
     display: flex;
     gap: 20px;
-
 }
 
 .skill-title {
     width: 364px;
-
     padding: 40px;
-
 }
 
 .skill-name {
@@ -297,31 +296,25 @@ iframe {
 
 .background-color-2 {
     border-radius: 16px;
-
     background: rgba(0, 76, 232, 0.05);
 }
 
 .background-color-3 {
     border-radius: 16px;
-
     background: rgba(255, 223, 0, 0.05);
 }
 
 .last-main {
     width: 1144px;
-    margin-left: 150px;
-    margin-right: 148px;
     height: 313px;
+    margin-left: 30px;
 }
 
 .back-img {
     margin-top: 50px;
-
-
     background:
         linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
         url('../assets/handshake.jpg');
-
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -331,9 +324,7 @@ iframe {
     height: 200px;
     border-radius: 16px;
     padding: 60px 40px;
-
 }
-
 
 .last-title {
     color: rgb(255, 255, 255);
@@ -385,6 +376,37 @@ iframe {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    width: 1140px;
+    height: 40px;
+    margin-left: 160px;
+    margin-right: 140px;
+    margin-top: 50px;
+    margin-bottom: 32px;
+    align-items: center;
+    gap: 560px;
+}
+
+.socisl-icon {
+    display: flex;
+    gap: 15px;
+    margin-left: 60px;
+}
+
+.foot-text {
+    padding-left: 20px;
+}
+
+.ftitle {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 17px;
     font-weight: 600;
     letter-spacing: 0%;
     text-align: center;
