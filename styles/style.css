@@ -1,5 +1,3 @@
-
-
 .nav-btn {
     display: flex;
 }
@@ -94,16 +92,18 @@
     letter-spacing: 0%;
     text-align: center;
     margin-top: 32px;
-    
+
 }
+
 .first-main {
     width: 1140px;
-    margin-left: 110px; 
+    margin-left: 110px;
     padding: 80px 95px;
 
 }
 
-.outer-title, .outer-description {
+.outer-title,
+.outer-description {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     text-align: center;
@@ -126,7 +126,7 @@
 .inner {
     margin-top: 80px;
     display: flex;
-    padding: 0 48px; 
+    padding: 0 48px;
     gap: 110px;
     padding-left: 70px;
 }
@@ -174,46 +174,52 @@
     margin-right: 148px;
     gap: 20px;
     padding-left: 60px;
-    
+
 
 }
+
 .media-text {
     flex: 1;
-    
-    padding: 10px; 
+
+    padding: 10px;
     width: 852px;
-height: 113px;
-}
-.media-title , .third-title{
-    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 28px;
-font-weight: 800;
-letter-spacing: 0%;
-text-align: center;
-padding-left: 110px;
+    height: 113px;
 }
 
-.media-description, .third-paragraph{
+.media-title,
+.third-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-left: 110px;
+}
+
+.media-description,
+.third-paragraph {
     width: 852;
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 14px;
-font-weight: 400;
-letter-spacing: 0%;
-padding-left: 40px;
-text-align: center;
-opacity: 0.7;
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    padding-left: 90px;
+    text-align: center;
+    opacity: 0.7;
 
 }
-.video{
+
+.video {
     margin-top: 80px;
 }
-iframe{
+
+iframe {
     border-radius: 14px;
 }
 
-.third-main{
+.third-main {
     width: 1140px;
     display: flex;
     flex-wrap: wrap;
@@ -223,77 +229,163 @@ iframe{
     padding-left: 60px;
 }
 
-.third-text-box{
+.third-text-box {
     width: 852px;
-height: 113px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+    height: 113px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.third-paragraph{
+.third-paragraph {
     margin-top: 0%;
     margin-bottom: 48px;
 }
-.skil-box{
+
+.skil-box {
     width: 1140px;
     height: 300px;
     margin-top: 48px;
     display: flex;
     gap: 20px;
-   
+
 }
 
-.skill-title{
+.skill-title {
     width: 364px;
 
-padding: 40px;
+    padding: 40px;
 
 }
 
-.skill-name{
+.skill-name {
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 18px;
-font-weight: 800;
-letter-spacing: 0%;
-text-align: left;
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 0%;
+    text-align: left;
 }
 
-.skill-description{
+.skill-description {
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 13px;
-font-weight: 400;
-letter-spacing: 0%;
-text-align: left;
+    font-family: Azeret Mono;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: left;
 }
 
-.link-text a{
+.link-text a {
     margin-top: 20px;
     color: #0D1321;
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 14px;
-font-weight: 700;
-letter-spacing: 0%;
-text-align: left;
-text-decoration-line: underline; 
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
 }
-.background-color-1{
+
+.background-color-1 {
     border-radius: 16px;
-background: rgba(255, 76, 30, 0.05);
+    background: rgba(255, 76, 30, 0.05);
 
 }
 
-.background-color-2{
+.background-color-2 {
     border-radius: 16px;
 
     background: rgba(0, 76, 232, 0.05);
 }
-.background-color-3{
+
+.background-color-3 {
     border-radius: 16px;
 
-background: rgba(255, 223, 0, 0.05);
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.last-main {
+    width: 1144px;
+    margin-left: 150px;
+    margin-right: 148px;
+    height: 313px;
+}
+
+.back-img {
+    margin-top: 50px;
+
+
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url('../assets/handshake.jpg');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    border-radius: 16px;
+    padding: 60px 40px;
+
+}
+
+
+.last-title {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.last-description {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+
+}
+
+.last-text-box {
+    width: 730px;
+    height: 104px;
+    margin-left: 190px;
+    margin-left: 190px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 22px;
+}
+
+.txt-box {
+    width: 530px;
+    height: 35px;
+}
+
+.su-btn {
+    width: 115px;
+    height: 40px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0%;
+    text-align: center;
 }
